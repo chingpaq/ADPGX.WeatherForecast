@@ -2,15 +2,40 @@
 
 Weather Application using OpenWeatherOrg
 
-## Getting Started
+## Description
+# WeatherWeatherLang
 
-This project is a starting point for a Flutter application.
+Description
+A simple application to demonstrate knowledge of the Flutter framework, architectural skills,
+and familiarity with common processes like testing or communicating with REST API.
+The application is composed of two screens only.
+Main screen
+● List of weather conditions in Manila, Prague and Seoul
+● Each item contains
+○ Name of the location
+○ Weather status
+○ Current temperature
+○ Clicking on an item navigates to the detail screen
+Detail screen
+● Shows detailed information for a specific location
+● The screen contains
+○ Name
+○ Weather status
+○ Current temperature
+○ Low and high temperatures
 
-A few resources to get you started if this is your first Flutter project:
+Implemented using
+Use Flutter
+Use Provider architecture.
+Uses Openweathermap API
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+● Here are the IDs of the three cities:
+○ Manila - 1701668
+○ Prague - 3067696
+○ Seoul - 1835848
+● Use /data/2.5/group endpoint for the list screen
+● Use /data/2.5/weather endpoint for the detail screen
+● Use ?units=metric to get temperatures in Celsius instead of Kelvin
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
